@@ -1,7 +1,5 @@
 <?php
 
-namespace Catalog;
-
 class Lists
 {
     private $empty_string = 'Seleccionar...';
