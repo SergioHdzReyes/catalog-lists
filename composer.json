@@ -1,0 +1,22 @@
+{
+  "name": "catalogs/list",
+  "description": "Allow to get the diferent catalog lists.",
+  "keywords": ["list", "catalog"],
+  "homepage": "https://github.com/SergioHdzReyes/catalog-lists",
+  "type": "library",
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Sergio Hernández Reyes",
+      "email": "sergio.hdzreyes@gmail.com",
+      "homepage": "https://www.linkedin.com/in/sergiohdzreyes/"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0"
+  },
+  "autoload": {
+    "psr-4": {"Catalog\\": "src/Catalog"}
+  }
+}
